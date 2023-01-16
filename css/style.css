@@ -36,3 +36,13 @@ header {
 .release {
     background-color: coral;
 }
+
+.new {
+    background-color: darkgray;
+}
+
+/* EXPLORE */
+
+.explore {
+    text-align: center;
+}
