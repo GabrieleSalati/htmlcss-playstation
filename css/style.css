@@ -30,3 +30,9 @@ header {
 .products {
     text-align: center;
 }
+
+/* RELEASES */
+
+.release {
+    background-color: coral;
+}
