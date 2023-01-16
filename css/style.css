@@ -70,3 +70,15 @@ header {
 .follow {
     text-align: center;
 }
+
+/* FOOTER STYLE */
+
+footer {
+    background-color: darkblue;
+}
+
+.footcard {
+    background-color: azure;
+    height: 50px;
+    border: 2px dashed black;
+}
