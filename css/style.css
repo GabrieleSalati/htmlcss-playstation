@@ -58,3 +58,9 @@ header {
 .offers {
     text-align: center;
 }
+
+/* NOW */
+
+.now {
+    background-color: blue;
+}
