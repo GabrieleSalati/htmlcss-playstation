@@ -1,5 +1,11 @@
 /* UTILITIES */
 
+.card {
+    background-color: crimson;
+    border: 2px dashed black;
+    height: 150px;
+}
+
 /* HEADER STYLE */
 
 header {
@@ -9,4 +15,12 @@ header {
 .upperheader {
     text-align: right;
     color: white;
+}
+
+/* MAIN STYLE */
+
+/* JUMBOTRON */
+
+.jumbo {
+    background-color: aqua;
 }
