@@ -121,14 +121,22 @@ main section:first-child {
 
 /* EXPLORE */
 
-.explore {
-    text-align: center;
-}
-
 /* PLUS */
 
 .plus {
-    background-color: gray;
+    background-color: #BEBCBB;
+}
+
+.plus-logo {
+    width: 60%;
+}
+
+.plus-button {
+    color: #2D64E6;
+    background-color: #D9DADC;
+    border-radius: 50px;
+    padding: 0.5rem 0.8rem;
+    border: 0;
 }
 
 /* OFFERS */
