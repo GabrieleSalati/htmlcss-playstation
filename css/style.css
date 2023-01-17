@@ -4,17 +4,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
 .card {
     height: 100px;
 }
 
-.jumbocard {
-    height: 100px;
-    border: 0;
-}
-
 .card-img {
-    height: 100%;
     border-radius: 25px;
 }
 
@@ -22,11 +20,28 @@ body {
     color: white;
 }
 
+.text-gray {
+    color: #808080;
+}
+
+.text-blue {
+    color: #0A77D0;
+}
+
 .buy-button {
     color: white;
     background-color: #CD3D0F;
     border-radius: 50px;
     padding: 0.5rem 0.8rem;
+    border: 0;
+}
+
+.info-button {
+    color: white;
+    background-color: #2D64E6;
+    border-radius: 50px;
+    padding: 0.5rem 0.8rem;
+    border: 0;
 }
 
 /* HEADER STYLE */
@@ -37,10 +52,6 @@ header {
     width: 100%;
     top: 0;
     z-index: 1;
-}
-
-.upperheader {
-    text-align: right;
 }
 
 .nav-item {
@@ -76,14 +87,20 @@ main section:first-child {
 .jumbo {
     background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
     background-size: cover;
-    background-position: center;
     height: 100vh;
+}
+
+.jumbocard {
+    border: 0;
+    border-radius: 25px;
 }
 
 /* PRODUCTS */
 
-.products {
-    text-align: center;
+.prod-card {}
+
+.prod-img {
+    width: 50%;
 }
 
 /* RELEASES */
