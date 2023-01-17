@@ -5,9 +5,28 @@ body {
 }
 
 .card {
-    background-color: crimson;
-    border: 2px dashed black;
-    height: 150px;
+    height: 100px;
+}
+
+.jumbocard {
+    height: 100px;
+    border: 0;
+}
+
+.card-img {
+    height: 100%;
+    border-radius: 25px;
+}
+
+.text-bright {
+    color: white;
+}
+
+.buy-button {
+    color: white;
+    background-color: #CD3D0F;
+    border-radius: 50px;
+    padding: 0.5rem 0.8rem;
 }
 
 /* HEADER STYLE */
@@ -55,7 +74,10 @@ main section:first-child {
 /* JUMBOTRON */
 
 .jumbo {
-    background-color: aqua;
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 /* PRODUCTS */
