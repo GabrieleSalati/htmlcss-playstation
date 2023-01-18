@@ -44,6 +44,10 @@ img {
     border: 0;
 }
 
+.service-logo {
+    width: 60%;
+}
+
 /* HEADER STYLE */
 
 header {
@@ -127,10 +131,6 @@ main section:first-child {
     background-color: #BEBCBB;
 }
 
-.plus-logo {
-    width: 60%;
-}
-
 .plus-button {
     color: #2D64E6;
     background-color: #D9DADC;
@@ -144,7 +144,14 @@ main section:first-child {
 /* NOW */
 
 .now {
-    background-color: blue;
+    background-color: #161C3B;
+}
+
+.explore-button {
+    background-color: white;
+    border-radius: 50px;
+    padding: 0.5rem 0.8rem;
+    border: 0;
 }
 
 /* FOLLOW */
