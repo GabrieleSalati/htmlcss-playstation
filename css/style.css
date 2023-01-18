@@ -8,10 +8,6 @@ img {
     width: 100%;
 }
 
-.card {
-    height: 100px;
-}
-
 .card-img {
     border-radius: 25px;
 }
@@ -89,9 +85,10 @@ main section:first-child {
 /* JUMBOTRON */
 
 .jumbo {
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    height: 100vh;
+    background-position: center;
+    height: 80vh;
 }
 
 .jumbocard {
@@ -112,7 +109,7 @@ main section:first-child {
 .release {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
 }
 
 .tt-logo {
@@ -156,18 +153,25 @@ main section:first-child {
 
 /* FOLLOW */
 
-.follow {
-    text-align: center;
-}
-
 /* FOOTER STYLE */
 
 footer {
-    background-color: darkblue;
+    background-color: #00439C;
 }
 
-.footcard {
-    background-color: azure;
-    height: 50px;
-    border: 2px dashed black;
+.footer-logo {
+    width: 20%;
+}
+
+.language-logo {
+    width: 5%;
+}
+
+.sie-logo {
+    width: 20%;
+}
+
+ul {
+    list-style: none;
+    color: white;
 }
